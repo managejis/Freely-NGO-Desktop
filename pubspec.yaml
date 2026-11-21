@@ -1,0 +1,49 @@
+name: freely_ngo_desktop
+description: Freely NGO for Windows - NGO Management System. Offline-first children home, old age home and patient care records, donations, expenses and inventory with multi-device sync.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.4
+  sqflite_common: ^2.5.4
+  path: ^1.9.0
+  path_provider: ^2.1.6
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+  uuid: ^4.5.1
+  crypto: ^3.0.6
+  encrypt: ^5.0.3
+  file_picker: ^8.1.6
+  image: ^4.2.0
+  window_manager: ^0.4.3
+  url_launcher: ^6.3.1
+  http: ^1.2.2
+  excel: ^4.0.6
+  pdf: ^3.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/freely_ngo_apps_script.txt
+    - assets/logo.png
+  fonts:
+    - family: DMSerif
+      fonts:
+        - asset: assets/fonts/DMSerifDisplay-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
